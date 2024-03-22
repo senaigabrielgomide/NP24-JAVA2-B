@@ -1,6 +1,6 @@
 package br.com.senaisp.bauru.luizgabriel.licao04.secao01;
 
-
+import java.util.Random;
 
 public class FestaAlex {
 	//constantes
@@ -20,7 +20,7 @@ public class FestaAlex {
 				double pessoa6 = 15;
 				double pessoa7 = 11;
 				double pessoa8 = 30;
-			
+		        Random rand = new Random();
 			//vamos as contas
 				double total1 = calcularConta(pessoa1);
 				double total2 = calcularConta(pessoa2);
@@ -39,11 +39,23 @@ public class FestaAlex {
 				System.out.println("Pessoa 6: $"+ total6);
 				System.out.println("Pessoa 7: $" +total7);
 				System.out.println("Pessoa 8: $" +total8);
-		
 			
+				
+				
+
+				        //
+
+				        // Gerar um número aleatório entre 1 e 89
+				        int numeroSorteado = rand.nextInt(89) + 1;
+
+				        // Imprimir o número sorteado
+				        System.out.println("O número sorteado é: " + numeroSorteado);
+				    }
+				
+
 				
 				
 
 	}
 
-}
+
